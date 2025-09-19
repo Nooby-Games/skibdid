@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>UV-style Proxy (Netlify)</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Ultraviolet-style Proxy (Netlify)</h1>
+
+    <form id="goForm">
+      <input id="urlInput" placeholder="https://example.com" />
+      <button type="submit">Open via proxy</button>
+    </form>
+
+    <p class="note">This is a lightweight demo proxy. Large sites or streaming content may timeout on Netlify Functions.</p>
+
+    <div id="frameWrap">
+      <iframe id="proxyFrame" sandbox="allow-same-origin allow-scripts allow-forms" src=""></iframe>
+    </div>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
