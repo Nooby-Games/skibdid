@@ -1,0 +1,13 @@
+{
+  "name": "uv-netlify-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo \"static site - no build step\"",
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {}
+}
